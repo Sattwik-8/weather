@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+}
+
+.carousel {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.card {
+  background-color: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  min-width: 100px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.card:hover {
+  background-color: #334155;
+}
+
+.details {
+  margin-top: 30px;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hourly {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.hour-block {
+  background-color: #334155;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
